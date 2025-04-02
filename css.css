@@ -1,0 +1,69 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2020/11/07/01/28/abstract-5719221_1280.jpg);
+background-size: 100%;
+}
+.nik {
+    text-align: center;
+}
+#plus {
+    width: 100%;
+    height: 110px;
+    border-radius: 25%;
+        box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
+        transition: 0.5s;
+      }
+      
+      #plus {
+        transform: translate(0,-3px);
+        box-shadow: 0 20px 40px 0 rgba(11, 246, 50, 0.397);
+      }
+
+#minus {
+    width: 100%;
+    height: 110px;
+    border-radius: 25%;
+        box-shadow: 0 5px 15px 0 rgb(246, 11, 11);
+        transition: 0.5s;
+      }
+      
+      #minus {
+        transform: translate(0,-3px);
+        box-shadow: 0 20px 40px 0 rgb(246, 11, 11);
+      }
+      #multiplication{
+        width: 100%;
+    height: 110px;
+        border-radius: 25%;
+            box-shadow: 0 5px 15px 0 rgb(11, 246, 101);
+            transition: 0.5s;
+          }
+          
+          #multiplication {
+            transform: translate(0,-3px);
+            box-shadow: 0 20px 40px 0 rgb(11, 35, 246);
+          }
+          #division {
+            width: 100%;
+    height: 110px;
+            border-radius: 25%;
+                box-shadow: 0 5px 15px 0 rgb(246, 11, 11);
+                transition: 0.5s;
+              }
+              
+              #division {
+                transform: translate(0,-3px);
+                box-shadow: 0 20px 40px 0 rgb(246, 11, 11);
+              }
+.font{
+    border-radius: 25%;
+}
+
+
+#submit {
+    width: 100%;
+    border-radius: 30%;
+    height: 100px;
+    box-shadow: 0 5px 15px 0 rgb(223, 246, 11);
+                transition: 0.5s;
+
+}
